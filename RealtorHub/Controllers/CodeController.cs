@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RealtorHub.Controllers
 {
-    public class ProductsController : Controller
+    public class CodeController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
