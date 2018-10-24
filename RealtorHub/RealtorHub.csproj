@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Folder Include="Views\Code\" />
+    <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Products\Index.cshtml" />
@@ -17,5 +18,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Code\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Home\User.html" />
   </ItemGroup>
 </Project>

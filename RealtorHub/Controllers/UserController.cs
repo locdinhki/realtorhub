@@ -23,5 +23,11 @@ namespace RealtorHub.Controllers
             //call UserModel to get User information
             return "UserModel";
         }
+
+        public IActionResult Index()
+        {
+            return View();
+
+        }
     }
 }
